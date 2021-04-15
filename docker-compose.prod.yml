@@ -56,7 +56,7 @@ services:
             - test
 
     npm:
-        image: node:13.7
+        image: node:latest
         container_name: npm
         volumes: 
             - ./src:/var/www/html
